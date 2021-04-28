@@ -5,7 +5,7 @@ import ActionTypes from '../constants';
 const CHANGE = 'CHANGE';
 let _walletState = [];
 
-class WalletState extends EventEmitter {
+class WalletStore extends EventEmitter {
 	constructor() {
 		super();
 
