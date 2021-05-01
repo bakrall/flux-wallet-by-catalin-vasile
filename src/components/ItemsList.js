@@ -24,7 +24,6 @@ class ItemsList extends React.Component {
     }
  
     render() {
- 
         let noItemsMessage;
  
         // Show a friendly message instead if there are no items.
